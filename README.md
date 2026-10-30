@@ -9,7 +9,7 @@
 1. 현재 과제 작업 공간과 기존 지침을 확인한다. 이 저장소가 아직 없다면 작업 공간과 구분되는 적절한 위치에 `git clone https://github.com/answndud/hackathon-harness.git`으로 가져온다. 이미 있으면 경로와 로컬 변경을 보존하며 최신 지침인지 확인한다. 안전하게 갱신할 수 없으면 현재 버전과 한계를 보고한다.
 2. clone한 하네스의 [AGENTS.md](AGENTS.md)와 [스킬 적용 지침](docs/guide/skill-guideline.md)을 **직접 읽고** 현재 과제에 적용한다. 과제 작업 공간에 AGENTS.md가 없으면 하네스의 파일을 복사하고, 이미 있으면 덮어쓰지 않고 두 지침을 함께 따른다. 이미 시작된 세션에서 복사한 AGENTS.md가 자동 적용된다고 가정하지 않는다.
 3. 과제 작업 공간에 하네스의 `docs/guide/` 문서 3개와 `docs/debt/README.md`를 각각 같은 상대 경로로 복사하고 `docs/debt/solved/`를 만든다. 기존 디렉터리는 재사용하고, 같은 경로의 기존 파일은 절대 덮어쓰지 않는다. 파일별로 복사·기존 파일 보존·실패를 확인하고 보고한다. 경로가 이미 파일이나 심볼릭 링크로 막혀 있으면 변경하지 말고 해당 경로와 실패를 보고한다. 하네스 clone 자체를 과제 공간으로 사용하지 않으며, 실제 부채는 과제 공간에만 기록한다.
-4. 스킬을 Codex 자동 등록 경로에 설치하지 않는다. `.agents/`를 생성하거나 쓰려고 시도하지 않는다. 먼저 clone의 `scripts/install-skills.sh`가 대상 경로를 과제의 `skills/`로 지정하는지 확인한 뒤, 하네스 루트에서 `bash scripts/install-skills.sh <과제_디렉터리>`를 실행해 8개 스킬을 과제 작업 공간의 `skills/<이름>/`에 복사한다. 스크립트가 `.agents/skills`를 가리키는 구버전이면 실행하지 말고, 최신 하네스의 `skills/` 내용을 기존 파일을 덮어쓰지 않고 과제의 `skills/`에 직접 복사한다. 일반 `skills/` 경로도 쓰기가 금지되어 있으면 해당 제한을 따르고 clone의 파일을 직접 읽는다. 이 경로가 Codex에 자동 등록된다고 가정하지 않는다. 출력의 `INSTALLED`와 `SKIP`을 확인하고 기존 스킬을 덮어쓰지 않는다.
+4. 스킬을 Codex 자동 등록 경로에 설치하지 않는다. `.agents/`를 생성하거나 쓰려고 시도하지 않는다. 먼저 clone의 `scripts/install-skills.sh`가 대상 경로를 과제의 `skills/`로 지정하는지 확인한 뒤, 하네스 루트에서 `bash scripts/install-skills.sh <과제_디렉터리>`를 실행해 9개 스킬을 과제 작업 공간의 `skills/<이름>/`에 복사한다. 스크립트가 `.agents/skills`를 가리키는 구버전이면 실행하지 말고, 최신 하네스의 `skills/` 내용을 기존 파일을 덮어쓰지 않고 과제의 `skills/`에 직접 복사한다. 일반 `skills/` 경로도 쓰기가 금지되어 있으면 해당 제한을 따르고 clone의 파일을 직접 읽는다. 이 경로가 Codex에 자동 등록된다고 가정하지 않는다. 출력의 `INSTALLED`와 `SKIP`을 확인하고 기존 스킬을 덮어쓰지 않는다.
 이미 이전 버전을 과제에 설치했다면 기존 디렉터리는 유지되고 같은 이름은 SKIP된다. 기존 `tdd`, `systematic-debugging`, `domain-modeling`도 자동 삭제되지 않는다. 과제 내 기존 파일을 임의로 삭제·덮어쓰지 말고, 시험용으로 clone한 하네스의 최신 스킬을 직접 읽어 적용한다.
 
 5. 필요한 스킬은 과제 작업 공간의 `skills/<이름>/SKILL.md`와 필요한 참조 파일을 직접 읽고 적용한다. 자동 검색 여부는 환경에서 확인되었을 때만 보고한다. SKIP된 스킬이 하네스와 다르면 clone한 하네스의 해당 파일을 직접 읽어 적용한다. 원본 스킬과 시험용 지침이 충돌하면 시험용 지침을 따른다. 설치에 실패해도 가능한 파일을 직접 읽어 진행하고 실패를 보고한다.
@@ -29,7 +29,7 @@
 - [docs/guide/skill-user-guide.md](docs/guide/skill-user-guide.md): 응시자의 상황별 스킬 사용법.
 - [docs/guide/cofaprobe-guide.md](docs/guide/cofaprobe-guide.md): 인터뷰 정리와 시험 중 실전 메모.
 - [docs/debt/README.md](docs/debt/README.md): 과제 작업 공간에서 사용할 기술 부채 기록 지침과 양식. 기존 기록과 시험 규칙을 우선한다.
-- `skills/`: 스킬 8개와 관련 참조 파일.
+- `skills/`: 스킬 9개와 관련 참조 파일.
 - `scripts/install-skills.sh`: 기존 이름을 덮어쓰지 않는 프로젝트별 설치 스크립트.
 
 일부 스킬은 mattpocock/skills, obra/superpowers, backnotprop/pstack의 공개 스킬을 시험 환경에 맞게 조정했다. test-and-debug는 기존 테스트·디버깅 원칙을 통합해 새로 작성했다.

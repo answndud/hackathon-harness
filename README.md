@@ -1,6 +1,6 @@
 # Hackathon Harness
 
-시험 과제 시작 후 제공된 Codex에게 이 저장소를 clone하고 `docs/skill-guideline.md`의 우선 규칙과 필요한 스킬을 읽어 적용하도록 요청한다. 시험 공지와 과제 README가 우선한다.
+시험 과제 시작 후 제공된 Codex에게 이 저장소를 clone하고 하네스의 `AGENTS.md`와 `docs/skill-guideline.md`를 먼저 읽은 뒤 필요한 스킬에 시험용 조정을 적용하도록 요청한다. 시험 공지와 과제 README가 우선한다.
 
 ## 문서
 

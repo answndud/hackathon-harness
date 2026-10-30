@@ -1,4 +1,4 @@
 interface:
-  display_name: "Plan"
+  display_name: "Implementation Plan"
   short_description: "Plan focused implementation and verification"
   default_prompt: "Turn the confirmed requirements into a concise implementation plan with dependencies and verification."

@@ -1,77 +1,15 @@
 ---
 name: domain-modeling
-description: Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a GLOSSARY.md, or recording or editing an ADR.
+description: Clarify domain terms, data units, calculations, state transitions and exceptions when business rules or meanings affect implementation.
 ---
 
-# Domain Modeling
+# Domain modeling
 
-Actively build and sharpen the project's domain model as you design. This is the *active* discipline: challenging terms, inventing edge-case scenarios, and writing the glossary and decisions down the moment they crystallise. (Merely *reading* `GLOSSARY.md` for vocabulary is not this skill: that's a one-line habit any skill can do. This skill is for when you're changing the model, not just consuming it.)
+Exam rules and task instructions prevail. First inspect provided requirements, data and existing code; distinguish confirmed rules, assumptions and unknowns.
 
-## File structure
+- Identify terms, entity boundaries, input units, identifiers, time, calculations, states and exceptions that change the result.
+- Compare rules against evidence and code. Form small boundary examples; do not invent domain facts. Prepare consequential questions for the participant to send to the domain contact.
+- Proceed with independent work while awaiting necessary answers. Record assumptions and their impact.
+- Create or update a brief glossary or decision record only when it helps the task or handoff; reuse existing conventions. Optional formats: [glossary](GLOSSARY-FORMAT.md), [decision record](ADR-FORMAT.md).
 
-Most repos have a single context:
-
-```
-/
-├── GLOSSARY.md
-├── docs/
-│   └── adr/
-│       ├── 0001-event-sourced-orders.md
-│       └── 0002-postgres-for-write-model.md
-└── src/
-```
-
-If a `GLOSSARY-MAP.md` exists at the root, the repo has multiple contexts. The map points to where each one lives:
-
-```
-/
-├── GLOSSARY-MAP.md
-├── docs/
-│   └── adr/                          ← system-wide decisions
-├── src/
-│   ├── ordering/
-│   │   ├── GLOSSARY.md
-│   │   └── docs/adr/                 ← context-specific decisions
-│   └── billing/
-│       ├── GLOSSARY.md
-│       └── docs/adr/
-```
-
-Create files lazily: only when you have something to write. If no `GLOSSARY.md` exists, create one when the first term is resolved. If no `docs/adr/` exists, create it when the first ADR is needed.
-
-## During the session
-
-### Challenge against the glossary
-
-When the user uses a term that conflicts with the existing language in `GLOSSARY.md`, call it out immediately. "Your glossary defines 'cancellation' as X, but you seem to mean Y. Which is it?"
-
-### Sharpen fuzzy language
-
-When the user uses vague or overloaded terms, propose a precise canonical term. "You're saying 'account': do you mean the Customer or the User? Those are different things."
-
-### Discuss concrete scenarios
-
-When domain relationships are being discussed, stress-test them with specific scenarios. Invent scenarios that probe edge cases and force the user to be precise about the boundaries between concepts.
-
-### Cross-reference with code
-
-When the user states how something works, check whether the code agrees. If you find a contradiction, surface it: "Your code cancels entire Orders, but you just said partial cancellation is possible. Which is right?"
-
-### Update GLOSSARY.md inline
-
-When a term is resolved, update `GLOSSARY.md` right there. Don't batch these up: capture them as they happen. Use the format in [GLOSSARY-FORMAT.md](./GLOSSARY-FORMAT.md).
-
-`GLOSSARY.md` should be totally devoid of implementation details. Do not treat `GLOSSARY.md` as a spec, a scratch pad, or a repository for implementation decisions. It is a glossary and nothing else.
-
-### Offer ADRs sparingly
-
-Only offer to create an ADR when all three are true:
-
-1. **Hard to reverse**: the cost of changing your mind later is meaningful
-2. **Surprising without context**: a future reader will wonder "why did they do it this way?"
-3. **The result of a real trade-off**: there were genuine alternatives and you picked one for specific reasons
-
-If any of the three is missing, skip the ADR. Use the format in [ADR-FORMAT.md](./ADR-FORMAT.md).
-
-
-> 시험 적용: docs/skill-guideline.md의 시험용 적용 우선 규칙이 이 원본보다 우선한다. 자동 커밋은 생략하고 외부 전송·Computer Use를 수행하지 않는다. 필요한 경우 스킬 파일을 직접 읽고 적용한다.
+Source: mattpocock/skills domain-modeling, adapted for the exam. Use the cloned harness's `docs/guide/skill-guideline.md` for exam-specific precedence.

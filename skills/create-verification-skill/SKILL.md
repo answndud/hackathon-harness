@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 # Create a verification procedure
 
-Source: backnotprop/pstack, skills/create-verification-skill. Modified for the exam: the participant performs browser UI interactions manually; do not create or execute Computer Use, browser/CDP, Playwright, Cypress or other automated UI-driving procedures. Exam rules, task instructions and docs/skill-guideline.md take precedence.
+Source: backnotprop/pstack, skills/create-verification-skill. Modified for the exam: the participant performs browser UI interactions manually; do not create or execute Computer Use, browser/CDP, Playwright, Cypress or other automated UI-driving procedures. Exam rules, task instructions and docs/guide/skill-guideline.md take precedence.
 
 Use this skill only when a reusable procedure is worth the time. For a short task, use a concise checklist and reproducible CLI commands instead of creating a skill.
 
@@ -20,4 +20,4 @@ Use this skill only when a reusable procedure is worth the time. For a short tas
 4. Write a short reusable procedure in the task workspace only when helpful, including launch, readiness, inputs, checks, expected evidence and cleanup of processes started for verification. Preserve any evidence needed by the task.
 5. Execute permitted checks. Ask the participant to perform the manual UI steps. Record each result as passed, failed or unverified. A planned but unexecuted check is not evidence of success.
 
-The included references/feature-map-example/ provides optional upstream examples; apply the restrictions above if consulting them. Do not require feature maps, extra tools, external deployment or unsupported skills.
+For a compact manual UI and CLI/API example, see references/example.md. Do not require feature maps, extra tools, external deployment or unsupported skills.

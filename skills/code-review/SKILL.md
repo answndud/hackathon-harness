@@ -5,7 +5,7 @@ description: "Review the changes since a fixed point (commit, branch, tag, or me
 
 ## Exam adaptation
 
-Source: mattpocock/skills, skills/engineering/code-review. Modified for the exam: review uncommitted and untracked files; do not require an issue tracker, fixed commit or sub-agents. Exam rules, task instructions and docs/skill-guideline.md take precedence.
+Source: mattpocock/skills, skills/engineering/code-review. Modified for the exam: review uncommitted and untracked files; do not require an issue tracker, fixed commit or sub-agents. Exam rules, task instructions and docs/guide/skill-guideline.md take precedence.
 
 Review the actual work along two axes: **Spec** (requirements and missing or incorrect behavior) and **Standards** (relevant project conventions and substantive quality risks). Use the task README and provided materials as the spec.
 
@@ -52,4 +52,4 @@ A change can pass one axis and fail the other:
 Reporting them separately stops one axis from masking the other.
 
 
-> 시험 적용: docs/skill-guideline.md의 시험용 적용 우선 규칙이 이 원본보다 우선한다. 자동 커밋은 생략하고 외부 전송·Computer Use를 수행하지 않는다. 필요한 경우 스킬 파일을 직접 읽고 적용한다.
+> 시험 적용: docs/guide/skill-guideline.md의 시험용 적용 우선 규칙이 이 원본보다 우선한다. 자동 커밋은 생략하고 외부 전송·Computer Use를 수행하지 않는다. 필요한 경우 스킬 파일을 직접 읽고 적용한다.

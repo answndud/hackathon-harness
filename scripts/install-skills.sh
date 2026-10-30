@@ -17,4 +17,4 @@ for source in "$root"/skills/*; do
     echo "INSTALLED: $target/$name"
   fi
 done
-echo "Read docs/skill-guideline.md first. Skill discovery may require a new session; otherwise read SKILL.md directly."
+echo "Read docs/guide/skill-guideline.md first. Skill discovery may require a new session; otherwise read SKILL.md directly."

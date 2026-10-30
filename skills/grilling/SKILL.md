@@ -1,33 +1,13 @@
 ---
 name: grilling
-description: Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.
+description: Identify high-impact questions and clarify uncertain requirements or plans. Use when the task's purpose, business rules, scope or decisions are ambiguous.
 ---
 
-Interview the user relentlessly until you reach a shared understanding. Map this as a **design tree**: every decision branches into the decisions that hang off it.
+# Clarify the task
 
-Work the tree in **rounds**. The **frontier** is every decision whose prerequisites are already settled: the questions you can ask _now_ without guessing at answers you haven't heard yet. Ask the whole frontier in one round: number each question and give your recommended answer. Then wait for the user's answers before the next round.
+Adapted from mattpocock/skills grilling for a time-limited hackathon. Exam rules, task README and higher-priority instructions prevail.
 
-Format a round like so:
-
-```
-❓ **Q1** - **<question title>**: <question body, might be multiple paragraphs, including multiple choices>
-
-➡️ <your recommended answer>
-
----
-
-❓ **Q2** - **<question title>**: <question body, might be multiple paragraphs, including multiple choices>
-
-➡️ <your recommended answer>
-```
-
-Word each question so "yes" accepts your recommended answer.
-
-Each round the user answers reshapes the tree: settled decisions push the frontier outward and unblock questions that depended on them. Recompute the frontier and ask the next round. A question whose answer depends on another question still open in this round belongs to a _later_ round, not this one.
-
-Finding _facts_ is your job, never the user's. When a frontier question needs a fact from the environment (filesystem, tools, etc.), dispatch a sub-agent with a fresh context window to find it; don't ask the user for anything you could look up yourself. Don't block on it: a running exploration is an unsettled prerequisite, so only the questions downstream of it wait for the sub-agent to report; ask the rest of the frontier now. The _decisions_ are the user's: put each to them and wait.
-
-The session is done when the frontier is empty: every branch of the design tree visited, nothing left silently assumed. Do not act on it until the user confirms you have reached a shared understanding.
-
-
-> 시험 적용: docs/skill-guideline.md의 시험용 적용 우선 규칙이 이 원본보다 우선한다. 자동 커밋은 생략하고 외부 전송·Computer Use를 수행하지 않는다. 필요한 경우 스킬 파일을 직접 읽고 적용한다.
+1. Read available requirements, code and data first. Distinguish confirmed facts, assumptions, conflicts and unknowns.
+2. Identify decisions that change scope, calculation or outcome. Ask up to five prioritized questions per round; explain the consequence briefly. Prepare questions for the participant to send to the domain contact directly.
+3. Wait only for answers required for dependent work. Continue independent work; label reversible, low-impact assumptions. Do not invent business facts.
+4. Summarize the agreed goal, essential requirements and acceptance checks. Revisit unresolved points only when they block progress. Do not wait for every possible design branch or demand a separate approval for routine decisions.

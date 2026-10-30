@@ -1,6 +1,4 @@
-# Hackathon Harness
-
-시험 시작 후 Codex에 아래 한 문장만 입력한다.
+# Harness
 
 > https://github.com/answndud/hackathon-harness 이 저장소의 README대로 적용 작업을 진행하여 하네스를 구축해라.
 

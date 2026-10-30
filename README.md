@@ -2,6 +2,11 @@
 
 시험 과제 시작 후 제공된 Codex에게 이 저장소를 clone하고 `docs/skill-guideline.md`의 우선 규칙과 필요한 스킬을 읽어 적용하도록 요청한다. 시험 공지와 과제 README가 우선한다.
 
+## 문서
+
+- [응시자 실전 가이드](docs/skill-field-guide.md): 상황별 스킬 선택과 호출 예시.
+- [Codex 적용 지침](docs/skill-guideline.md): 시험 우선 규칙과 스킬별 조정.
+
 ## 설치
 
 과제 작업 디렉터리를 확인한 다음 `bash scripts/install-skills.sh <과제_디렉터리>`를 실행하면 10개 스킬을 해당 디렉터리의 `.agents/skills`에 복사한다. 이미 존재하는 같은 이름은 덮어쓰지 않고 SKIP으로 표시한다. 기존 항목이 최신이거나 동일하다는 뜻은 아니다.

@@ -1,13 +1,16 @@
 ---
 name: grilling
-description: Identify high-impact questions and clarify uncertain requirements or plans. Use when the task's purpose, business rules, scope or decisions are ambiguous.
+description: Clarify ambiguous task goals, business rules and decisions; ask high-impact questions and record the resulting requirements and evidence.
 ---
 
-# Clarify the task
+# Clarify and record the task
 
-Adapted from mattpocock/skills grilling for a time-limited hackathon. Exam rules, task README and higher-priority instructions prevail.
+Exam rules, task README and higher-priority instructions prevail. Adapted from mattpocock/skills grilling and domain-modeling for a time-limited hackathon.
 
-1. Read available requirements, code and data first. Distinguish confirmed facts, assumptions, conflicts and unknowns.
-2. Identify decisions that change scope, calculation or outcome. Ask up to five prioritized questions per round; explain the consequence briefly. Prepare questions for the participant to send to the domain contact directly.
-3. Wait only for answers required for dependent work. Continue independent work; label reversible, low-impact assumptions. Do not invent business facts.
-4. Summarize the agreed goal, essential requirements and acceptance checks. Revisit unresolved points only when they block progress. Do not wait for every possible design branch or demand a separate approval for routine decisions.
+1. Read relevant requirements, documents, code and data first. Separate sourced facts, assumptions, conflicts and unknowns; compare documents with existing behavior.
+2. Identify decisions that change the result or implementation. When relevant, check the meaning of records and IDs, units, time, calculations, state transitions, missing or duplicate data and exceptions. Do not invent business rules.
+3. Prepare up to five prioritized questions per round with a brief consequence. The participant sends them to the domain contact. Wait only for answers needed for dependent work; continue independent work and label reversible assumptions.
+4. Save the concise outcome in an existing suitable task document, preserving its contents; if none exists and task rules allow, create `docs/requirements.md` in the task workspace. Record goal, essential requirements, confirmed rules and their sources, decisions, assumptions, unresolved questions, and acceptance checks as relevant. Exclude secrets and unnecessary personal data.
+5. When answers arrive, update the same record, distinguish confirmed from unverified, compare changes against existing code, and report any consequential conflict. Keep the document current and concise; do not require separate glossary or ADR files. If writing is blocked or disallowed, report that and provide the summary to the participant.
+
+Do not send messages, auto-commit, push, deploy or automate the browser. Do not block routine implementation waiting for every possible decision.

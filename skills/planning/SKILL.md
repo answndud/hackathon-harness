@@ -1,5 +1,5 @@
 ---
-name: implementation-plan
+name: planning
 description: Turn clarified requirements into a concise hackathon implementation plan with ordered deliverables, dependencies, verification and optional parallel work. Use before multi-step implementation when the approach or task boundaries need planning.
 ---
 

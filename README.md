@@ -10,7 +10,7 @@
 2. clone한 하네스의 [AGENTS.md](AGENTS.md)와 [스킬 적용 지침](docs/skill-guideline.md)을 **직접 읽고** 현재 과제에 적용한다. 하네스가 과제 폴더 밖에 있다면 자동 적용된다고 가정하지 않는다. 과제의 기존 AGENTS.md는 덮어쓰지 않는다.
 3. 하네스 루트에서 `bash scripts/install-skills.sh <과제_디렉터리>`를 실행해 10개 스킬을 해당 작업 공간에 설치한다. 출력의 `INSTALLED`와 `SKIP`을 확인하고 기존 스킬을 덮어쓰지 않는다.
 4. 스킬의 자동 검색 여부를 환경에서 확인한다. 현재 세션에서 인식되지 않으면 clone한 하네스의 `skills/<이름>/SKILL.md`와 필요한 참조 파일을 직접 읽어 적용한다. 원본 스킬과 시험용 지침이 충돌하면 시험용 지침을 따른다. 설치에 실패해도 가능한 파일을 직접 읽어 진행하고 실패를 보고한다.
-5. [응시자 실전 가이드](docs/skill-field-guide.md)와 [Cofa Probe 팁](docs/CofaProbe-Tips.md)의 위치를 안내한다. 이 문서들은 참고 자료이며 시험 규칙이나 과제 요구사항을 대체하지 않는다. 필요할 때 관련 부분만 확인한다.
+5. [응시자 실전 가이드](docs/skill-user-guide.md)와 [Cofa Probe 팁](docs/CofaProbe-Tips.md)의 위치를 안내한다. 이 문서들은 참고 자료이며 시험 규칙이나 과제 요구사항을 대체하지 않는다. 필요할 때 관련 부분만 확인한다.
 6. 실제 clone 경로, 읽은 지침, 설치·SKIP·실패 상태와 스킬 자동 검색 여부 또는 직접 읽기 대안을 간결하게 보고한다. 자동 검색이나 동작을 확인하지 못했다면 미확인이라고 표시한다.
 
 ## 시험 중 우선 규칙
@@ -23,7 +23,7 @@
 
 - [AGENTS.md](AGENTS.md): Codex 공통 작업 지침.
 - [docs/skill-guideline.md](docs/skill-guideline.md): 스킬의 시험용 적용 지침.
-- [docs/skill-field-guide.md](docs/skill-field-guide.md): 응시자의 상황별 스킬 사용법.
+- [docs/skill-user-guide.md](docs/skill-user-guide.md): 응시자의 상황별 스킬 사용법.
 - [docs/CofaProbe-Tips.md](docs/CofaProbe-Tips.md): 인터뷰 정리와 시험 중 실전 메모.
 - `skills/`: 스킬 10개와 관련 참조 파일.
 - `scripts/install-skills.sh`: 기존 이름을 덮어쓰지 않는 프로젝트별 설치 스크립트.

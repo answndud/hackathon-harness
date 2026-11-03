@@ -27,7 +27,7 @@
 - [AGENTS.md](AGENTS.md): Codex 공통 작업 지침.
 - [docs/guide/skill-guideline.md](docs/guide/skill-guideline.md): 스킬의 시험용 적용 지침.
 - [docs/guide/skill-user-guide.md](docs/guide/skill-user-guide.md): 응시자의 상황별 스킬 사용법.
-- [docs/guide/cofaprobe-guide.md](docs/guide/cofaprobe-guide.md): 인터뷰 정리와 시험 중 실전 메모.
+- [docs/guide/cofaprobe-guide.md](docs/guide/cofaprobe-guide.md): 과제 README·자료 분석부터 기록·구현·제출까지의 실전 절차와 프롬프트.
 - [docs/guide/problem-solving-guide.md](docs/guide/problem-solving-guide.md): 범용 문제 해결·알고리즘 설계·검증과 설명 근거 기록.
 - [docs/guide/multi-session-guide.md](docs/guide/multi-session-guide.md): Codex 세션별 역할 분담·공통 계약·통합 검증.
 - [docs/work/README.md](docs/work/README.md): 세션별 작업 보고서와 추적 방법.

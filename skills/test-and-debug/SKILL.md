@@ -14,6 +14,10 @@ Exam rules and task instructions prevail. Combine focused test-first practice wi
 3. When practical, write a focused behavior test and observe it fail for the intended reason, implement the smallest change and observe it pass. A test added after implementation is useful but is not evidence of a red-green cycle.
 4. Verify related behavior and report actual commands and results. Do not weaken an assertion or alter expected values to match the implementation without an independent reason. Avoid tests that only duplicate implementation logic.
 
+## Constraints and comparison
+
+Check each essential constraint independently of the optimization metric and report violations, missing or unprocessed cases. When comparison is relevant, evaluate baseline and change on the same input, conditions, constraints and metrics; record definitions, actual values and evidence. If a baseline cannot be reproduced, conditions differ or results are unmeasured, state the limitation and do not claim improvement. Use `docs/guide/problem-solving-guide.md` for details when relevant.
+
 ## Diagnose a failure
 
 1. Reproduce with the smallest safe input; capture the symptom, relevant error and prior changes. If not reproducible, report the uncertainty and gather targeted evidence.

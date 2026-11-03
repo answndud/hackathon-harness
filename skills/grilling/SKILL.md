@@ -14,3 +14,5 @@ Exam rules, task README and higher-priority instructions prevail. Adapted from m
 5. When answers arrive, update the same record, distinguish confirmed from unverified, compare changes against existing code, and report any consequential conflict. Keep the document current and concise; do not require separate glossary or ADR files. If writing is blocked or disallowed, report that and provide the summary to the participant.
 
 Do not send messages, auto-commit, push, deploy or automate the browser. Do not block routine implementation waiting for every possible decision.
+
+When multi-session reporting is in use, update only the assigned `docs/work/<task>.md` per `docs/work/README.md`; note important unresolved issues briefly for the tracker. Do not duplicate debt details.

@@ -23,3 +23,5 @@ Exam rules and task instructions prevail. Combine focused test-first practice wi
 Use only permitted tools. Browser UI interaction is performed by the participant; do not automate it. Never transmit task data externally or auto-commit. Report passed, failed and unverified separately.
 
 Inspired by mattpocock/skills tdd and obra/superpowers systematic-debugging; this is an independent, condensed exam adaptation.
+
+Record actual commands, independent expectations, outcomes and unverified items in the assigned task report when used. Flag important unresolved issues to the tracker; in a single session follow `docs/debt/README.md` as needed.

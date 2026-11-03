@@ -14,3 +14,5 @@ Exam rules, task README and higher-priority instructions prevail. Use existing r
 5. Report the plan and next action briefly. Continue authorized implementation when requested; wait only for decisions needed by dependent work. If writing is disallowed or blocked, report it and provide the plan in chat.
 
 Do not auto-commit, push, open PRs, deploy, send messages or automate browser interaction. The participant communicates with the domain contact and performs UI checks.
+
+For multiple sessions, assign task report paths and ownership using `docs/work/README.md`; identify the tracker for important debt per `docs/debt/README.md`. Keep the plan concise and preserve existing records.

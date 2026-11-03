@@ -12,3 +12,5 @@ Adapted from mattpocock/skills implement for a time-limited hackathon. Exam rule
 - For high-impact logic or a failure, use the local test-and-debug skill when available; otherwise apply independent expected values, reproduction and focused verification directly.
 - Run checks appropriate to the changes. Review requirement coverage and relevant code, including untracked files. Re-run affected checks after changes.
 - Report implementation, actual checks, failures and unverified items concisely. Do not auto-commit, push, open a PR or deploy.
+
+When multi-session reporting is in use, update the assigned task report per `docs/work/README.md` at key decisions and checks; briefly flag important unresolved issues for the tracker. In a single session, follow `docs/debt/README.md` directly when needed.

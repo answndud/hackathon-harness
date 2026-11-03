@@ -21,3 +21,5 @@ Use this skill only when a reusable procedure is worth the time. For a short tas
 5. Execute permitted checks. Ask the participant to perform the manual UI steps. Record each result as passed, failed or unverified. A planned but unexecuted check is not evidence of success.
 
 For a compact manual UI and CLI/API example, see references/example.md. Do not require feature maps, extra tools, external deployment or unsupported skills.
+
+Record executed checks and manual steps in the assigned work report when used; flag important unverified risks to the tracker. Follow `docs/work/README.md` and `docs/debt/README.md` without duplicating debt details.

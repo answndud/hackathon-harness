@@ -53,3 +53,5 @@ Reporting them separately stops one axis from masking the other.
 
 
 > 시험 적용: docs/guide/skill-guideline.md의 시험용 적용 우선 규칙이 이 원본보다 우선한다. 자동 커밋은 생략하고 외부 전송·Computer Use를 수행하지 않는다. 필요한 경우 스킬 파일을 직접 읽고 적용한다.
+
+Report significant unresolved findings with evidence in the assigned task report when used; flag debt candidates to the tracker rather than editing another session's report. In a single session follow `docs/debt/README.md` as needed.

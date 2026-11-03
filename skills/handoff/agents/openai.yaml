@@ -1,3 +1,0 @@
-interface:
-  display_name: "Handoff"
-  short_description: "Record task state for the next session"

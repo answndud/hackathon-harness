@@ -17,4 +17,4 @@ for source in "$root"/skills/*; do
     echo "INSTALLED: $target/$name"
   fi
 done
-echo "Read guide/skill-guideline.md; use task skills/<name>/SKILL.md directly. Automatic discovery is not guaranteed."
+echo "Read guide/hackathon-guide.md; use task skills/<name>/SKILL.md directly. Automatic discovery is not guaranteed."

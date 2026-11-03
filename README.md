@@ -25,9 +25,8 @@
 ## 구성
 
 - [AGENTS.md](AGENTS.md): Codex 공통 작업 지침.
-- [guide/hackathon-guide.md](guide/hackathon-guide.md): 과제 진행 순서, 스킬 선택과 실전 프롬프트.
+- [guide/hackathon-guide.md](guide/hackathon-guide.md): 과제 진행 순서, 스킬 선택, 다중 세션 운영과 실전 프롬프트.
 - [guide/problem-solving-guide.md](guide/problem-solving-guide.md): 범용 문제 해결·알고리즘 설계·검증과 설명 근거 기록.
-- [guide/multi-session-guide.md](guide/multi-session-guide.md): Codex 세션별 역할 분담·공통 계약·통합 검증.
 - [docs/work/README.md](docs/work/README.md): 세션별 작업 보고서와 추적 방법.
 - [docs/debt/README.md](docs/debt/README.md): 과제 작업 공간에서 사용할 기술 부채 기록 지침과 양식. 기존 기록과 시험 규칙을 우선한다.
 - `skills/`: 스킬 6개와 관련 참조 파일.

@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 # Create a verification procedure
 
-Source: backnotprop/pstack, skills/create-verification-skill. Modified for the exam: the participant performs browser UI interactions manually; do not create or execute Computer Use, browser/CDP, Playwright, Cypress or other automated UI-driving procedures. Exam rules, task instructions and docs/guide/skill-guideline.md take precedence.
+Source: backnotprop/pstack, skills/create-verification-skill. Modified for the exam: the participant performs browser UI interactions manually; do not create or execute Computer Use, browser/CDP, Playwright, Cypress or other automated UI-driving procedures. Exam rules, task instructions and guide/skill-guideline.md take precedence.
 
 Use this skill only when a reusable procedure is worth the time. For a short task, use a concise checklist and reproducible CLI commands instead of creating a skill.
 

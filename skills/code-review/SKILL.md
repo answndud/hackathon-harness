@@ -5,7 +5,7 @@ description: Review a hackathon task or work-in-progress changes for requirement
 
 # Review the task
 
-Exam rules, task instructions and `docs/guide/skill-guideline.md` take precedence. Based on mattpocock/skills code-review, adapted for a time-limited task.
+Exam rules, task instructions and `guide/skill-guideline.md` take precedence. Based on mattpocock/skills code-review, adapted for a time-limited task.
 
 1. Read the relevant requirements and existing project standards. Inspect actual changes, including staged, unstaged and untracked files; if Git or a baseline is unavailable, compare current files against requirements. Do not require an issue tracker or fixed commit.
 2. Review requirements and substantive quality separately. Prioritize missing requirements and business rules; calculation, data and constraint errors; authentication and authorization where required; API, storage and UI integration; and failures blocking execution or submission. Check duplication, complexity or abstractions only when they materially affect the task.

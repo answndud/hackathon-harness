@@ -16,7 +16,7 @@ Exam rules and task instructions prevail. Combine focused test-first practice wi
 
 ## Constraints and comparison
 
-Check each essential constraint independently of the optimization metric and report violations, missing or unprocessed cases. When comparison is relevant, evaluate baseline and change on the same input, conditions, constraints and metrics; record definitions, actual values and evidence. If a baseline cannot be reproduced, conditions differ or results are unmeasured, state the limitation and do not claim improvement. Use `docs/guide/problem-solving-guide.md` for details when relevant.
+Check each essential constraint independently of the optimization metric and report violations, missing or unprocessed cases. When comparison is relevant, evaluate baseline and change on the same input, conditions, constraints and metrics; record definitions, actual values and evidence. If a baseline cannot be reproduced, conditions differ or results are unmeasured, state the limitation and do not claim improvement. Use `guide/problem-solving-guide.md` for details when relevant.
 
 ## Diagnose a failure
 

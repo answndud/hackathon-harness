@@ -9,6 +9,7 @@
 1. 작업 공간과 구분되는 적절한 위치에 `git clone https://github.com/answndud/hackathon-harness.git`으로 가져온다.
 2. 아래의 '구성 요소'의 폴더와 파일들이 모두 제대로된 위치에 있는지 확인하고 없다면 다시 클론해 가져온다.
 3. 적용되어있는 7개의 skills들이 제대로 있는지 확인하고. codex에 적용되어 있는지 확인한다. (scripts/install-skills.sh: 기존 이름을 덮어쓰지 않는 프로젝트별 설치 스크립트. 필요 할때만 사용)
+4. 이후 git과 관련된 작업은 하지 않는다.
 
 ## 구성 요소
 
@@ -19,5 +20,6 @@
 - [docs/work/README.md](docs/work/README.md): 세션별 작업 보고서와 추적 방법.
 - [docs/debt/README.md](docs/debt/README.md): 과제 작업 공간에서 사용할 기술 부채 기록 지침과 양식. 기존 기록과 시험 규칙을 우선한다.
 - `skills/`: 스킬 7개와 관련 참조 파일.
+
 
 일부 스킬은 mattpocock/skills, obra/superpowers, backnotprop/pstack의 공개 스킬을 시험 환경에 맞게 조정했다. test-and-debug는 기존 테스트·디버깅 원칙을 통합해 새로 작성했다.

@@ -11,6 +11,6 @@ Exam rules, task instructions and `guide/hackathon-guide.md` take precedence. Ba
 2. Review requirements and substantive quality separately. Prioritize missing requirements and business rules; calculation, data and constraint errors; authentication and authorization where required; API, storage and UI integration; and failures blocking execution or submission. Check duplication, complexity or abstractions only when they materially affect the task.
 3. Validate significant findings against actual code, requirements or execution evidence. Distinguish confirmed defects, suspected issues and unverified behavior. Do not claim to have run checks that were not run.
 4. Report findings by impact with file/function location, concrete cause and consequence, evidence and a minimal next action; distinguish blockers from optional improvements. Identify missing verification and limitations. Do not make unrelated edits or require subagents.
-5. For multi-session work, record relevant findings in the assigned report per `docs/work/README.md` and flag important unresolved debt to the tracker. In a single session follow `docs/debt/README.md` as needed. Recheck affected behavior after any subsequent fix.
+5. Record relevant findings in the assigned stage document and manage important unresolved debt via `docs/debt/README.md` as needed. Recheck affected behavior after subsequent fixes.
 
 Do not auto-commit, push, deploy or automate the browser. The participant performs manual UI checks.

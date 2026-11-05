@@ -28,4 +28,4 @@ Use only permitted tools. Browser UI interaction is performed by the participant
 
 Inspired by mattpocock/skills tdd and obra/superpowers systematic-debugging; this is an independent, condensed exam adaptation.
 
-Record actual commands, independent expectations, outcomes and unverified items in the assigned task report per `docs/work/README.md` when used. Flag important unresolved issues to the tracker; in a single session follow `docs/debt/README.md` as needed.
+Record relevant decisions, actual checks and unresolved issues concisely in the assigned stage document. Coordinate shared document ownership and manage important unresolved debt via `docs/debt/README.md` as needed.

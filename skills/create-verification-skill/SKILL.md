@@ -22,4 +22,4 @@ Use this skill only when a reusable procedure is worth the time. For a short tas
 
 For a compact manual UI and CLI/API example, see references/example.md. Do not require feature maps, extra tools, external deployment or unsupported skills.
 
-Record executed checks and manual steps in the assigned work report when used; flag important unverified risks to the tracker. Follow `docs/work/README.md` and `docs/debt/README.md` without duplicating debt details.
+Record relevant decisions, actual checks and unresolved issues concisely in the assigned stage document. Coordinate shared document ownership and manage important unresolved debt via `docs/debt/README.md` as needed.
